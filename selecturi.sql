@@ -1,0 +1,10 @@
+SELECT * FROM universitate;
+SELECT * FROM facultate;
+SELECT nume, adresa FROM universitate;
+SELECT nume, nivelStudii FROM programStudii;
+SELECT * FROM departament WHERE facultateID = 2;
+SELECT nume, titluAcademic FROM profesor;
+SELECT * FROM student WHERE studentID = 1;
+SELECT * FROM materie WHERE profesorID = 2;
+SELECT nume, relatieCuStudentul FROM parinte;
+SELECT nume, decan FROM facultate;
